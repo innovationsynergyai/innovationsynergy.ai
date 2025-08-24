@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import CookieConsentBanner from "@/components/cookie-consent-banner"
+import Analytics from "@/components/Analytics"
+import ErrorBoundary from "@/components/ErrorBoundary"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -343,10 +345,33 @@ export default function RootLayout({
         <link rel="canonical" href="https://innovationsynergy.ai" />
       </head>
       <body className={cn(inter.variable, playfairDisplay.variable, "min-h-screen antialiased")}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <CookieConsentBanner />
+        {/* Skip to main content link for accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 bg-tiffany-500 text-black-900 px-4 py-2 rounded font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-tiffany-400"
+        >
+          Skip to main content
+        </a>
+        
+        <Analytics />
+        
+        <ErrorBoundary level="section">
+          <Header />
+        </ErrorBoundary>
+        
+        <main id="main-content" tabIndex={-1} className="focus:outline-none">
+          <ErrorBoundary level="page">
+            {children}
+          </ErrorBoundary>
+        </main>
+        
+        <ErrorBoundary level="section">
+          <Footer />
+        </ErrorBoundary>
+        
+        <ErrorBoundary level="component">
+          <CookieConsentBanner />
+        </ErrorBoundary>
       </body>
     </html>
   )
