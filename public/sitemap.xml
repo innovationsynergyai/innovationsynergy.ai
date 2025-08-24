@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main sitemap index for Innovation Synergy AI Inc. -->
+  <!-- America's #1 AI Infrastructure Consulting Firm -->
+  
+  <sitemap>
+    <loc>https://innovationsynergy.ai/sitemap-pages.xml</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://innovationsynergy.ai/sitemap-services.xml</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://innovationsynergy.ai/sitemap-regional.xml</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </sitemap>
+</sitemapindex>
