@@ -10,7 +10,6 @@ const nextConfig = {
   
   // SEO and Performance Optimizations
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
   },
   
