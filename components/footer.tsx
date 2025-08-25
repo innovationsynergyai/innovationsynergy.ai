@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-neutral-300 text-sm leading-relaxed mb-6 max-w-md">
-              America's leading AI infrastructure consulting firm, specializing in helping small businesses 
+              Small business consultants specializing in helping companies 
               integrate cutting-edge technology into their daily operations. Serving businesses nationwide 
               with remote consulting and custom AI solutions.
             </p>

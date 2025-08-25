@@ -95,7 +95,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Innovation Synergy AI - American Small Business AI Infrastructure",
-    description: "America's leading AI infrastructure consulting firm helping small businesses integrate cutting-edge technology into daily operations.",
+    description: "Small business consultants helping companies integrate cutting-edge AI technology into daily operations.",
     creator: "@innovationsynergyai",
     images: ["https://innovationsynergy.ai/logo-black-square.png"]
   },
@@ -326,7 +326,7 @@ export default function RootLayout({
                 "@id": "https://innovationsynergy.ai/#website",
                 "url": "https://innovationsynergy.ai",
                 "name": "Innovation Synergy AI",
-                "description": "America's leading AI infrastructure consulting firm",
+                "description": "Small business AI consultants",
                 "publisher": {
                   "@id": "https://innovationsynergy.ai/#organization"
                 },
