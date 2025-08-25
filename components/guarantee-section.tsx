@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image"
 import { Shield, TrendingUp, Clock, Award } from "lucide-react"
 
 export default function GuaranteeSection() {
@@ -75,8 +76,14 @@ export default function GuaranteeSection() {
               We maintain full professional liability coverage for your peace of mind."
             </blockquote>
             <div className="flex items-center justify-center space-x-4 mb-6">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-tiffany-500 to-tiffany-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">IS</span>
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                <Image
+                  src="/logo-black-square.png"
+                  alt="Innovation Synergy AI logo"
+                  width={48}
+                  height={48}
+                  className="w-12 h-12 object-contain"
+                />
               </div>
               <div className="text-left">
                 <div className="text-white font-medium">Innovation Synergy AI Inc.</div>
