@@ -15,7 +15,7 @@ export default function ResultsAuthoritySection() {
             <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50 p-6 shadow-2xl">
               <iframe 
                 className="w-full aspect-video rounded-lg"
-                src="https://www.youtube.com/embed/N563Pel2v9g?si=YAl_8QgRQ4QqJjEa" 
+                src="https://www.youtube.com/embed/N563Pel2v9g?si=x0V0UbiSF-0FelVT&autoplay=1&mute=1&loop=1&playlist=N563Pel2v9g&controls=0&modestbranding=1&rel=0" 
                 title="Innovation Synergy AI - Professional AI Consulting for Small Businesses" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
