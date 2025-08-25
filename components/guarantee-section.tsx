@@ -70,17 +70,31 @@ export default function GuaranteeSection() {
         {/* Trust Statement */}
         <div className="text-center max-w-4xl mx-auto">
           <div className="p-8 rounded-2xl bg-gradient-to-r from-tiffany-500/5 via-tiffany-400/5 to-tiffany-600/5 border border-tiffany-500/20">
-            <blockquote className="text-lg md:text-xl font-light text-neutral-300 leading-relaxed mb-4">
-              "We've invested over $2.4M in R&D and served 180+ clients. 
-              Your success is our reputation – and we protect it fiercely."
+            <blockquote className="text-lg md:text-xl font-light text-neutral-300 leading-relaxed mb-6">
+              "Your project is protected by comprehensive business insurance. 
+              We maintain full professional liability coverage for your peace of mind."
             </blockquote>
-            <div className="flex items-center justify-center space-x-4">
+            <div className="flex items-center justify-center space-x-4 mb-6">
               <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-tiffany-500 to-tiffany-600 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">IS</span>
               </div>
               <div className="text-left">
-                <div className="text-white font-medium">Innovation Synergy AI</div>
-                <div className="text-neutral-400 text-sm">Founded 2019 • Boston, NYC, Miami</div>
+                <div className="text-white font-medium">Innovation Synergy AI Inc.</div>
+                <div className="text-neutral-400 text-sm">Delaware Corporation • 254 Chapman Rd, Newark, DE 19702</div>
+              </div>
+            </div>
+            
+            {/* Insurance Details */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 pt-6 border-t border-neutral-700/30">
+              <div className="text-center p-4 rounded-lg bg-neutral-900/30 border border-neutral-800/50">
+                <div className="text-tiffany-400 font-medium text-sm mb-1">General Liability</div>
+                <div className="text-neutral-300 text-xs">$1M Coverage • Next Insurance US</div>
+                <div className="text-neutral-500 text-xs mt-1">NAIC# 16285</div>
+              </div>
+              <div className="text-center p-4 rounded-lg bg-neutral-900/30 border border-neutral-800/50">
+                <div className="text-tiffany-400 font-medium text-sm mb-1">Errors & Omissions</div>
+                <div className="text-neutral-300 text-xs">$1M Coverage • Professional Liability</div>
+                <div className="text-neutral-500 text-xs mt-1">Effective 08/12/2025</div>
               </div>
             </div>
           </div>
