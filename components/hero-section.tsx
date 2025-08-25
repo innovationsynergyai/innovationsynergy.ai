@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="relative mb-8">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
           <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block animate-fade-in-up stagger-0">
-            ELITE AI CONSULTING • $2.4M+ SAVED • 180+ PROJECTS
+            PROFESSIONAL AI CONSULTING • CUSTOM SOLUTIONS • NATIONWIDE SERVICE
           </p>
         </div>
         <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-extralight mb-8 animate-fade-in-up stagger-200 leading-[0.9] tracking-tight">
@@ -19,13 +19,13 @@ export default function HeroSection() {
           <span className="text-neutral-100">Custom AI</span> for Small Business
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl font-light tracking-wide mb-12 animate-fade-in-up stagger-600 text-neutral-300 max-w-4xl mx-auto leading-relaxed">
-          The proven methodology behind $2.4M+ in client savings. From concept to deployment to optimization – 
+          Professional AI consulting methodology. From concept to deployment to optimization – 
           <span className="text-tiffany-400">we guarantee your success.</span>
         </p>
         <div className="max-w-5xl mx-auto mb-16 animate-fade-in-up stagger-700">
           <p className="text-base md:text-lg text-neutral-400 mb-8 leading-relaxed font-light">
             Unlike traditional consultants who just advise, we build, deploy, and optimize your AI infrastructure. 
-            <span className="text-tiffany-400">98% client retention.</span> <span className="text-tiffany-400">21-day average ROI.</span> <span className="text-tiffany-400">Zero-risk guarantee.</span>
+            <span className="text-tiffany-400">Professional implementation.</span> <span className="text-tiffany-400">Custom solutions.</span> <span className="text-tiffany-400">Ongoing support.</span>
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div className="p-3 rounded-lg bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50">
