@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { useState, useEffect, useRef } from "react"
 import { Menu, X } from "lucide-react"
@@ -67,9 +68,12 @@ export default function Header() {
             aria-label="Innovation Synergy AI - Return to homepage"
           >
             <div className="w-10 h-10 flex items-center justify-center" aria-hidden="true">
-              <img 
+              <Image 
                 src="/logo-black-square.png" 
                 alt="Innovation Synergy AI logo" 
+                width={40}
+                height={40}
+                priority
                 className="w-10 h-10 object-contain"
               />
             </div>

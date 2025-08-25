@@ -115,6 +115,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Critical font preload for performance */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          as="style"
+          onLoad="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600&display=swap"
+          as="style" 
+          onLoad="this.onload=null;this.rel='stylesheet'"
+        />
+        {/* DNS prefetch for external resources */}
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="//calendly.com" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        
         {/* Innovation Synergy AI structured data */}
         <script
           type="application/ld+json"

@@ -5,22 +5,51 @@ import GuaranteeSection from "@/components/guarantee-section"
 import FinalCTASection from "@/components/final-cta-section"
 import FloatingCTA from "@/components/floating-cta"
 import { LocalBusinessStructuredData, FAQStructuredData } from "@/components/StructuredData"
+import VoiceSearchSchema from "@/components/VoiceSearchSchema"
+import ServiceSchema from "@/components/ServiceSchema"
+import LocalCitiesSchema from "@/components/LocalCitiesSchema"
 import { generatePageMetadata } from "@/lib/metadata"
 
 export const metadata: Metadata = generatePageMetadata({
-  description: "Elite small business AI consultants. $2.4M+ saved for 180+ clients. We build, integrate, and maintain custom AI solutions with guaranteed ROI. Boston • NYC • Miami.",
+  description: "Professional AI consulting for American small businesses. We leverage the latest technology with voice agents, workflow automation, data enrichment, and remote installation. Take back your time with HIPAA-compliant AI solutions. Boston • NYC • Miami.",
   pathname: "",
   keywords: [
-    "elite AI consulting",
-    "custom AI development",
-    "guaranteed ROI AI solutions",
-    "voice AI agents",
-    "workflow automation",
+    // Primary AI consulting keywords
+    "AI consulting for small businesses",
+    "small business AI consulting",
+    "artificial intelligence consulting",
+    "AI consultant small business",
+    "business AI consulting services",
+    
+    // Service-specific keywords
+    "voice AI agents for business",
+    "business workflow automation",
+    "small business automation",
+    "data enrichment services",
+    "remote AI installation",
     "AI integration services",
-    "business AI solutions",
-    "HIPAA compliant AI",
-    "enterprise AI consulting",
-    "AI business transformation"
+    
+    // Location-based keywords
+    "AI consulting Boston",
+    "AI consulting NYC",
+    "AI consulting Miami",
+    "small business AI Boston",
+    "small business AI New York",
+    "small business AI Miami",
+    
+    // Industry keywords
+    "HIPAA compliant AI solutions",
+    "American small business AI",
+    "professional AI services",
+    "custom AI development",
+    "business process automation",
+    "AI business transformation",
+    
+    // Long-tail keywords
+    "how to implement AI in small business",
+    "best AI consulting for small businesses",
+    "affordable AI consulting services",
+    "AI consulting companies near me"
   ]
 })
 
@@ -53,6 +82,9 @@ export default function HomePage() {
     <>
       <LocalBusinessStructuredData />
       <FAQStructuredData faqs={homepageFAQs} />
+      <VoiceSearchSchema />
+      <ServiceSchema />
+      <LocalCitiesSchema />
       
       <HeroSection />
       <ResultsAuthoritySection />
