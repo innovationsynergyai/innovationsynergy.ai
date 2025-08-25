@@ -353,7 +353,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         
-        <Analytics />
+        <Analytics gtmId="GTM-M8RRT296" />
         
         <ErrorBoundary level="section">
           <Header />
