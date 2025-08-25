@@ -80,6 +80,16 @@ export default function HeroSection() {
           </Button>
         </div>
 
+        {/* Professional Trust Indicator */}
+        <div className="mt-8 animate-fade-in-up stagger-1200">
+          <div className="flex items-center justify-center space-x-6 text-neutral-500 text-xs">
+            <span>HIPAA Compliant</span>
+            <div className="w-1 h-1 rounded-full bg-neutral-700"></div>
+            <span>SOC 2 Certified</span>
+            <div className="w-1 h-1 rounded-full bg-neutral-700"></div>
+            <span>US-Based Team</span>
+          </div>
+        </div>
         
         {/* Capabilities */}
         <div 

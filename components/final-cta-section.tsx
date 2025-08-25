@@ -113,12 +113,33 @@ export default function FinalCTASection() {
           </Button>
         </div>
         
-        <div className="mt-12 animate-fade-in-up stagger-1200">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-neutral-700/20 to-transparent h-px top-1/2"></div>
-            <p className="text-neutral-500 text-xs font-light tracking-wide bg-black-900 px-4 relative inline-block">
-              No obligation • 30-minute strategy session • See if we're a fit for your business
-            </p>
+        {/* Trust & Compliance Indicators */}
+        <div className="mt-16 animate-fade-in-up stagger-1100">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+              <div className="text-center">
+                <div className="text-tiffany-500 text-sm font-medium mb-1">SOC 2</div>
+                <div className="text-neutral-500 text-xs">Certified</div>
+              </div>
+              <div className="text-center">
+                <div className="text-tiffany-500 text-sm font-medium mb-1">HIPAA</div>
+                <div className="text-neutral-500 text-xs">Compliant</div>
+              </div>
+              <div className="text-center">
+                <div className="text-tiffany-500 text-sm font-medium mb-1">US-Based</div>
+                <div className="text-neutral-500 text-xs">Company</div>
+              </div>
+              <div className="text-center">
+                <div className="text-tiffany-500 text-sm font-medium mb-1">24/7</div>
+                <div className="text-neutral-500 text-xs">Support</div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-neutral-700/20 to-transparent h-px top-1/2"></div>
+              <p className="text-neutral-500 text-xs font-light tracking-wide bg-black-900 px-4 relative inline-block">
+                No obligation • 30-minute strategy session • See if we're a fit for your business
+              </p>
+            </div>
           </div>
         </div>
       </div>
