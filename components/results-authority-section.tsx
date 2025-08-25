@@ -9,53 +9,125 @@ export default function ResultsAuthoritySection() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-black-900 via-neutral-950 to-black-900 text-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         
-        {/* Results that Matter */}
+        {/* Current State Analysis */}
         <div className="text-center mb-20">
           <div className="relative mb-8">
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
             <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block">
-              RESULTS THAT MATTER
+              CURRENT STATE ANALYSIS
             </p>
           </div>
           
-          <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-extralight mb-12 leading-tight tracking-tight">
-            <span className="text-neutral-100">Transforming Small Businesses</span><br />
-            <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">Since 2019</span>
+          <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-extralight mb-6 leading-tight tracking-tight">
+            <span className="text-neutral-100">American Small Business</span><br />
+            <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">Infrastructure Needs</span>
           </h2>
+          
+          <p className="text-base md:text-lg text-neutral-400 max-w-4xl mx-auto font-light leading-relaxed mb-12">
+            Quantitative data on American small business operations and AI infrastructure needs
+          </p>
 
-          {/* Key Metrics */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="text-center group">
-              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                $2.4M+
+          {/* Problem Metrics */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-red-900/20 via-neutral-900/30 to-red-800/20 border border-red-700/30">
+              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-red-400 to-red-500 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+                87%
               </div>
-              <div className="text-neutral-400 text-sm font-light tracking-wide uppercase">
-                Saved for Clients
+              <div className="text-red-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                OF AMERICAN SMALL BUSINESSES
               </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Using Outdated Systems
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                American small businesses operate with outdated technology infrastructure, creating operational inefficiencies and reduced competitive positioning.
+              </p>
             </div>
-            <div className="text-center group">
-              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                180+
+            
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-orange-900/20 via-neutral-900/30 to-orange-800/20 border border-orange-700/30">
+              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+                4.2
               </div>
-              <div className="text-neutral-400 text-sm font-light tracking-wide uppercase">
-                Projects Delivered
+              <div className="text-orange-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                HOURS LOST DAILY
               </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Manual Tasks
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                Daily time spent by American small business owners on manual tasks that modern AI infrastructure can automate.
+              </p>
             </div>
-            <div className="text-center group">
-              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                98%
+            
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-yellow-900/20 via-neutral-900/30 to-yellow-800/20 border border-yellow-700/30">
+              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+                6+
               </div>
-              <div className="text-neutral-400 text-sm font-light tracking-wide uppercase">
-                Client Retention
+              <div className="text-yellow-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                HOURS RESPONSE TIME
               </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Customer Service
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                Customer response time for American small businesses without AI-powered customer service infrastructure.
+              </p>
             </div>
-            <div className="text-center group">
+          </div>
+
+          {/* Innovation Synergy AI Transformation Results */}
+          <div className="relative mb-8">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
+            <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block">
+              INNOVATION SYNERGY AI TRANSFORMATION RESULTS
+            </p>
+          </div>
+
+          {/* Solution Metrics */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-tiffany-900/20 via-neutral-900/30 to-tiffany-800/20 border border-tiffany-500/30">
               <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
-                21
+                73%
               </div>
-              <div className="text-neutral-400 text-sm font-light tracking-wide uppercase">
-                Day Avg ROI
+              <div className="text-tiffany-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                AVERAGE IMPROVEMENT
               </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Operational Efficiency
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                Operational efficiency gains after AI infrastructure implementation with HIPAA-compliant systems.
+              </p>
+            </div>
+            
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-tiffany-900/20 via-neutral-900/30 to-tiffany-800/20 border border-tiffany-500/30">
+              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+                2.1x
+              </div>
+              <div className="text-tiffany-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                RESPONSE SPEED
+              </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Customer Service
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                Faster customer service response times with voice AI integration and specialized compliance protocols.
+              </p>
+            </div>
+            
+            <div className="text-center group p-6 rounded-2xl bg-gradient-to-br from-tiffany-900/20 via-neutral-900/30 to-tiffany-800/20 border border-tiffany-500/30">
+              <div className="text-4xl md:text-6xl font-extralight bg-gradient-to-r from-tiffany-400 to-tiffany-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+                $45K
+              </div>
+              <div className="text-tiffany-300 text-sm font-semibold tracking-wide uppercase mb-2">
+                ANNUAL SAVINGS
+              </div>
+              <div className="text-neutral-400 text-xs font-light">
+                Cost Reduction
+              </div>
+              <p className="text-xs text-neutral-500 mt-3 leading-relaxed">
+                Average cost savings per small business through automation and specialized AI infrastructure implementation.
+              </p>
             </div>
           </div>
         </div>
