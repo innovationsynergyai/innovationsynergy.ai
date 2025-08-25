@@ -9,23 +9,6 @@ export default function ResultsAuthoritySection() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-black-900 via-neutral-950 to-black-900 text-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         
-        {/* Video Introduction */}
-        <div className="text-center mb-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50 p-6 shadow-2xl">
-              <iframe 
-                className="w-full aspect-video rounded-lg"
-                src="https://www.youtube.com/embed/N563Pel2v9g?si=x0V0UbiSF-0FelVT&autoplay=1&mute=1&loop=1&playlist=N563Pel2v9g&controls=0&modestbranding=1&rel=0" 
-                title="Innovation Synergy AI - Professional AI Consulting for Small Businesses" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerPolicy="strict-origin-when-cross-origin" 
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-
         {/* Current State Analysis */}
         <div className="text-center mb-20">
           <div className="relative mb-8">
