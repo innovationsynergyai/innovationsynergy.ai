@@ -11,35 +11,26 @@ export default function HeroSection() {
         <div className="relative mb-8">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
           <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block animate-fade-in-up stagger-0">
-            PROFESSIONAL AI CONSULTING • CUSTOM SOLUTIONS • NATIONWIDE SERVICE
+            AMERICAN SMALL BUSINESS TRANSFORMATION
           </p>
         </div>
         <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-extralight mb-8 animate-fade-in-up stagger-200 leading-[0.9] tracking-tight">
-          We <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">Build, Integrate & Maintain</span><br className="hidden md:block" /> 
-          <span className="text-neutral-100">Custom AI</span> for Small Business
+          We <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">Leverage The Latest Technology</span><br className="hidden md:block" /> 
+          <span className="text-neutral-100">For American Small Businesses</span>
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl font-light tracking-wide mb-12 animate-fade-in-up stagger-600 text-neutral-300 max-w-4xl mx-auto leading-relaxed">
-          Professional AI consulting methodology. From concept to deployment to optimization – 
-          <span className="text-tiffany-400">we guarantee your success.</span>
+          <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-medium">TAKE BACK YOUR TIME</span>
         </p>
         <div className="max-w-5xl mx-auto mb-16 animate-fade-in-up stagger-700">
           <p className="text-base md:text-lg text-neutral-400 mb-8 leading-relaxed font-light">
             Unlike traditional consultants who just advise, we build, deploy, and optimize your AI infrastructure. 
             <span className="text-tiffany-400">Professional implementation.</span> <span className="text-tiffany-400">Custom solutions.</span> <span className="text-tiffany-400">Ongoing support.</span>
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div className="p-3 rounded-lg bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50">
-              <span className="text-xs md:text-sm text-tiffany-400 font-medium tracking-wide">Custom Development</span>
-            </div>
-            <div className="p-3 rounded-lg bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50">
-              <span className="text-xs md:text-sm text-tiffany-400 font-medium tracking-wide">Full Integration</span>
-            </div>
-            <div className="p-3 rounded-lg bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50">
-              <span className="text-xs md:text-sm text-tiffany-400 font-medium tracking-wide">Ongoing Maintenance</span>
-            </div>
-            <div className="p-3 rounded-lg bg-gradient-to-br from-neutral-900/50 to-neutral-800/30 border border-neutral-800/50">
-              <span className="text-xs md:text-sm text-tiffany-400 font-medium tracking-wide">Team Training</span>
-            </div>
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
+            <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block">
+              VOICE AI • DATA ENRICHMENT • REMOTE INSTALL • CUSTOM INTEGRATION
+            </p>
           </div>
         </div>
         
