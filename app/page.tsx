@@ -3,7 +3,6 @@ import HeroSection from "@/components/hero-section"
 import ResultsAuthoritySection from "@/components/results-authority-section"
 import GuaranteeSection from "@/components/guarantee-section"
 import FinalCTASection from "@/components/final-cta-section"
-import FloatingCTA from "@/components/floating-cta"
 import { LocalBusinessStructuredData, FAQStructuredData } from "@/components/StructuredData"
 import VoiceSearchSchema from "@/components/VoiceSearchSchema"
 import ServiceSchema from "@/components/ServiceSchema"
@@ -92,7 +91,6 @@ export default function HomePage() {
       <ResultsAuthoritySection />
       <GuaranteeSection />
       <FinalCTASection />
-      <FloatingCTA />
     </>
   )
 }
