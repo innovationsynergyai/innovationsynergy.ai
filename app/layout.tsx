@@ -33,8 +33,8 @@ export const viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Innovation Synergy AI - American Small Business AI Infrastructure | Voice Agents & Automation",
-  description: "Innovation Synergy AI Inc. delivers AI infrastructure consulting for American small businesses. Voice agents, automation, data enrichment & remote installation. Serving Boston, NYC, Miami & nationwide. Take back your time.",
+  title: "Innovation Synergy AI - Professional AI Consulting for American Small Businesses | Voice Agents & Automation",
+  description: "Professional AI consulting for American small businesses. We leverage the latest technology with voice agents, workflow automation, data enrichment & remote installation. HIPAA-compliant solutions. Take back your time. Boston • NYC • Miami.",
   keywords: [
     // Primary keywords
     "American small business AI", "AI infrastructure consulting", "business automation USA", "Innovation Synergy AI",
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://innovationsynergy.ai/og-image-innovation-synergy-ai.jpg",
+        url: "https://innovationsynergy.ai/logo-black-square.png",
         width: 1200,
         height: 630,
         alt: "Innovation Synergy AI - American Small Business AI Infrastructure"
@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     title: "Innovation Synergy AI - American Small Business AI Infrastructure",
     description: "America's leading AI infrastructure consulting firm helping small businesses integrate cutting-edge technology into daily operations.",
     creator: "@innovationsynergyai",
-    images: ["https://innovationsynergy.ai/twitter-card-innovation-synergy-ai.jpg"]
+    images: ["https://innovationsynergy.ai/logo-black-square.png"]
   },
   other: {
     "geo.region": "US",
@@ -153,7 +153,7 @@ export default function RootLayout({
                   "width": 400,
                   "height": 400
                 },
-                "image": "https://innovationsynergy.ai/og-image-innovation-synergy-ai.jpg",
+                "image": "https://innovationsynergy.ai/logo-black-square.png",
                 "telephone": "+1-800-AI-SYNERGY",
                 "email": "info@innovationsynergyai.com",
                 "contactPoint": [

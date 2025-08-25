@@ -8,6 +8,7 @@ import { LocalBusinessStructuredData, FAQStructuredData } from "@/components/Str
 import VoiceSearchSchema from "@/components/VoiceSearchSchema"
 import ServiceSchema from "@/components/ServiceSchema"
 import LocalCitiesSchema from "@/components/LocalCitiesSchema"
+import BrandConsistencySchema from "@/components/BrandConsistencySchema"
 import { generatePageMetadata } from "@/lib/metadata"
 
 export const metadata: Metadata = generatePageMetadata({
@@ -85,6 +86,7 @@ export default function HomePage() {
       <VoiceSearchSchema />
       <ServiceSchema />
       <LocalCitiesSchema />
+      <BrandConsistencySchema />
       
       <HeroSection />
       <ResultsAuthoritySection />

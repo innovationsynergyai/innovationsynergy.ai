@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 export const siteConfig = {
   name: 'Innovation Synergy AI Inc.',
   url: 'https://innovationsynergy.ai',
-  ogImage: 'https://innovationsynergy.ai/og-image-innovation-synergy-ai.jpg',
-  twitterImage: 'https://innovationsynergy.ai/twitter-card-innovation-synergy-ai.jpg',
+  ogImage: 'https://innovationsynergy.ai/logo-black-square.png',
+  twitterImage: 'https://innovationsynergy.ai/logo-black-square.png',
   description: 'Innovation Synergy AI Inc. delivers AI infrastructure consulting for American small businesses. Voice agents, automation, data enrichment & remote installation. Serving Boston, NYC, Miami & nationwide.',
   phone: '+1-800-AI-SYNERGY',
   email: 'info@innovationsynergyai.com',
@@ -202,9 +202,9 @@ export function generateLocalBusinessStructuredData(city?: keyof typeof cityConf
     foundingDate: siteConfig.foundingYear,
     logo: {
       '@type': 'ImageObject',
-      url: `${siteConfig.url}/logo-innovation-synergy-ai.png`,
-      width: 300,
-      height: 100
+      url: `${siteConfig.url}/logo-black-square.png`,
+      width: 400,
+      height: 400
     },
     image: siteConfig.ogImage,
     priceRange: '$$$',
