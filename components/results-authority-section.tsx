@@ -132,50 +132,6 @@ export default function ResultsAuthoritySection() {
           </div>
         </div>
 
-        {/* Client Success Stories */}
-        <div className="mb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-neutral-900/40 via-neutral-900/30 to-neutral-800/40 border border-neutral-800/50 hover:border-tiffany-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-tiffany-500/10">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-sm">MH</span>
-                </div>
-                <div>
-                  <h3 className="text-lg font-medium text-white">MetroHealth Partners</h3>
-                  <p className="text-sm text-neutral-400">Healthcare • 450 employees</p>
-                </div>
-              </div>
-              <blockquote className="text-neutral-300 font-light leading-relaxed mb-4">
-                "Innovation Synergy AI eliminated 3 full-time positions while improving patient satisfaction 47%. 
-                Their voice AI handles 2,400+ patient calls monthly with HIPAA compliance."
-              </blockquote>
-              <div className="flex items-center justify-between text-sm">
-                <span className="text-tiffany-400 font-medium">$126K Annual Savings</span>
-                <span className="text-neutral-500">18-day implementation</span>
-              </div>
-            </div>
-
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-neutral-900/40 via-neutral-900/30 to-neutral-800/40 border border-neutral-800/50 hover:border-tiffany-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-tiffany-500/10">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-sm">AL</span>
-                </div>
-                <div>
-                  <h3 className="text-lg font-medium text-white">Apex Legal Group</h3>
-                  <p className="text-sm text-neutral-400">Legal Services • 85 employees</p>
-                </div>
-              </div>
-              <blockquote className="text-neutral-300 font-light leading-relaxed mb-4">
-                "Document automation and client intake AI reduced case processing time 62%. 
-                We're handling 3x more clients with the same staff size."
-              </blockquote>
-              <div className="flex items-center justify-between text-sm">
-                <span className="text-tiffany-400 font-medium">$89K Annual Savings</span>
-                <span className="text-neutral-500">14-day implementation</span>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* Our Methodology */}
         <div className="text-center">
