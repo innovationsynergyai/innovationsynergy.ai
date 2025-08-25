@@ -86,10 +86,10 @@ export default function FinalCTASection() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 animate-fade-in-up stagger-1000">
+        <div className="flex justify-center animate-fade-in-up stagger-1000">
           <Button
             asChild
-            className="bg-gradient-to-r from-tiffany-500 to-tiffany-600 text-black-900 font-semibold px-12 py-6 rounded-none hover:from-tiffany-400 hover:to-tiffany-500 transition-all duration-500 tracking-wide uppercase text-sm sm:text-base w-full sm:w-auto shadow-2xl hover:shadow-tiffany-500/25 hover:scale-105 transform"
+            className="bg-gradient-to-r from-tiffany-500 to-tiffany-600 text-black-900 font-semibold px-12 py-6 rounded-none hover:from-tiffany-400 hover:to-tiffany-500 transition-all duration-500 tracking-wide uppercase text-sm sm:text-base w-full sm:w-auto shadow-2xl hover:shadow-tiffany-500/25 hover:scale-105 transform max-w-sm"
           >
             <Link
               href="https://calendly.com/innovationsynergyai/30-minute-discovery-call"
@@ -98,17 +98,6 @@ export default function FinalCTASection() {
               onClick={() => trackCTAClick('Book Free Strategy Call', 500, 'final_cta_section')}
             >
               CLAIM YOUR STRATEGY SESSION
-            </Link>
-          </Button>
-          <Button
-            asChild
-            className="border border-neutral-600 text-neutral-300 font-semibold px-12 py-6 rounded-none hover:border-tiffany-500 hover:text-tiffany-500 hover:bg-neutral-900/50 transition-all duration-500 tracking-wide uppercase text-sm sm:text-base w-full sm:w-auto backdrop-blur-sm hover:scale-105 transform"
-          >
-            <Link 
-              href="#capabilities"
-              onClick={() => trackButtonClick('Learn More About Services', 'final_cta_section')}
-            >
-              SEE CLIENT RESULTS
             </Link>
           </Button>
         </div>
