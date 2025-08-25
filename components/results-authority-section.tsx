@@ -9,6 +9,13 @@ export default function ResultsAuthoritySection() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-black-900 via-neutral-950 to-black-900 text-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         
+        {/* ConvAI Widget */}
+        <div className="text-center mb-16">
+          <div className="max-w-2xl mx-auto">
+            <elevenlabs-convai agent-id="agent_6801k1pr3gsxejnbzxmyc38f1jqf"></elevenlabs-convai>
+          </div>
+        </div>
+        
         {/* Current State Analysis */}
         <div className="text-center mb-20">
           <div className="relative mb-8">

@@ -390,6 +390,9 @@ export default function RootLayout({
         <ErrorBoundary level="component">
           <CookieConsentBanner />
         </ErrorBoundary>
+        
+        {/* ElevenLabs ConvAI Script */}
+        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
       </body>
     </html>
   )
