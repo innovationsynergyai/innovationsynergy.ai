@@ -131,9 +131,9 @@ export default function RootLayout({
                 "url": "https://innovationsynergy.ai",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://innovationsynergy.ai/logo-innovation-synergy-ai.png",
-                  "width": 300,
-                  "height": 100
+                  "url": "https://innovationsynergy.ai/logo-text.svg",
+                  "width": 400,
+                  "height": 60
                 },
                 "image": "https://innovationsynergy.ai/og-image-innovation-synergy-ai.jpg",
                 "telephone": "+1-800-AI-SYNERGY",

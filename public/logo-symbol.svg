@@ -1,0 +1,11 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ouroboros circle -->
+  <circle cx="30" cy="30" r="28" stroke="#81D8D0" stroke-width="2" fill="none" opacity="0.8"/>
+  <!-- Snake head -->
+  <path d="M58 30 L52 26 L52 34 Z" fill="#81D8D0"/>
+  <!-- Inner circles representing synergy/connection -->
+  <circle cx="22" cy="22" r="4" stroke="#81D8D0" stroke-width="1.5" fill="none"/>
+  <circle cx="38" cy="22" r="4" stroke="#81D8D0" stroke-width="1.5" fill="none"/>
+  <circle cx="22" cy="38" r="4" stroke="#81D8D0" stroke-width="1.5" fill="none"/>
+  <circle cx="38" cy="38" r="4" stroke="#81D8D0" stroke-width="1.5" fill="none"/>
+</svg>

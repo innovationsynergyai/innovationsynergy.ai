@@ -66,14 +66,20 @@ export default function Header() {
             className="flex items-center space-x-3 focus:outline-none focus:ring-2 focus:ring-tiffany-500 rounded-lg p-2 -m-2 transition-all duration-200"
             aria-label="Innovation Synergy AI - Return to homepage"
           >
-            <div 
-              className="w-8 h-8 bg-tiffany-500 rounded-full flex items-center justify-center"
-              aria-hidden="true"
-            >
-              <span className="text-black-900 font-bold text-sm">IS</span>
+            <div className="w-10 h-10 flex items-center justify-center" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="30" cy="30" r="28" stroke="#81D8D0" strokeWidth="2" fill="none" opacity="0.8"/>
+                <path d="M58 30 L52 26 L52 34 Z" fill="#81D8D0"/>
+                <circle cx="22" cy="22" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
+                <circle cx="38" cy="22" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
+                <circle cx="22" cy="38" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
+                <circle cx="38" cy="38" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
+              </svg>
             </div>
-            <div className="text-white-50">
-              <div className="font-display text-xl font-light">Innovation Synergy AI</div>
+            <div className="text-white-50 hidden sm:block">
+              <div className="font-display text-xl font-light">
+                <span className="text-white">INNOVATION</span><span className="text-tiffany-400">SYNERGY</span><span className="text-neutral-400">AI</span>
+              </div>
               <div className="text-xs text-neutral-400 -mt-1">American Small Business AI</div>
             </div>
           </Link>
