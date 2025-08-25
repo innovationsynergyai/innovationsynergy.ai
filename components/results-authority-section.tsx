@@ -9,19 +9,17 @@ export default function ResultsAuthoritySection() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-black-900 via-neutral-950 to-black-900 text-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         
-        {/* Background Video */}
-        <div className="relative mb-16 overflow-hidden rounded-2xl bg-black-900 border border-neutral-800/50">
-          <div className="aspect-video relative">
-            <iframe
-              src="https://player.vimeo.com/video/1100989797?h=0&autoplay=1&muted=1&loop=1&background=1&controls=0&title=0&byline=0&portrait=0&badge=0&autopause=0&dnt=1&quality=auto"
-              className="absolute top-1/2 left-1/2 w-[177.77vh] h-[56.25vw] min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2"
-              allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
-              allowFullScreen={false}
-              frameBorder="0"
-              style={{ border: "none" }}
-              title="Innovation Synergy AI"
-            />
-          </div>
+        {/* Video Section - Removed for now due to autoplay restrictions */}
+        <div className="relative mb-16 text-center">
+          <p className="text-neutral-400 text-sm mb-4">Watch our introduction:</p>
+          <a 
+            href="https://vimeo.com/1100989797" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-tiffany-500 hover:bg-tiffany-400 text-black-900 rounded-lg font-medium transition-colors duration-200"
+          >
+            ▶ Watch Innovation Synergy AI Video
+          </a>
         </div>
         
         {/* Current State Analysis */}
