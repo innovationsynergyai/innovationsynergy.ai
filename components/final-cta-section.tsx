@@ -7,94 +7,120 @@ import { useAnalytics } from "@/hooks/useAnalytics"
 export default function FinalCTASection() {
   const { trackCTAClick, trackButtonClick } = useAnalytics()
   return (
-    <section className="py-32 bg-black-900 text-white-50">
+    <section className="py-24 md:py-32 bg-black-900 text-white-50">
       <div className="container max-w-6xl mx-auto px-6 lg:px-8 text-center">
-        <p className="text-tiffany-500 text-xs font-semibold tracking-[0.3em] uppercase mb-6 animate-fade-in-up stagger-0">
-          READY TO AUTOMATE YOUR BUSINESS?
-        </p>
-        <h2 className="font-display text-5xl md:text-7xl font-light mb-8 animate-fade-in-up stagger-200">
-          Automate Your <span className="text-tiffany-500">Operations</span>
+        <div className="relative mb-8">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
+          <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block animate-fade-in-up stagger-0">
+            READY FOR CUSTOM AI SOLUTIONS?
+          </p>
+        </div>
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extralight mb-12 animate-fade-in-up stagger-200 leading-[0.9] tracking-tight">
+          <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">GROWTH INFRASTRUCTURE</span><br className="block sm:hidden" />
+          <span className="hidden sm:inline text-neutral-600"> / </span><span className="text-neutral-200">HIPAA COMPLIANT PIPELINES</span><br className="block sm:hidden" />
+          <span className="hidden sm:inline text-neutral-600"> / </span><span className="text-neutral-300">LOCAL AND CLOUD SOLUTIONS</span>
         </h2>
-        <p className="text-xl md:text-2xl text-neutral-300 mb-16 font-light animate-fade-in-up stagger-400">
-          Professional AI consulting services to streamline your business operations 
-          with voice agents and workflow automation.
+        <p className="text-base md:text-lg lg:text-xl text-neutral-400 mb-20 font-light animate-fade-in-up stagger-400 max-w-4xl mx-auto leading-relaxed">
+          We don't just consult – we build, integrate, and maintain custom AI solutions for small businesses. 
+          From voice agents to workflow automation, we handle everything.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <div className="text-left animate-fade-in-up stagger-600">
-            <h3 className="text-2xl font-semibold mb-6 text-tiffany-500">Why Choose Us?</h3>
-            <ul className="space-y-4 text-neutral-300">
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Professional AI consulting for small businesses</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>100% remote installation - no disruption to your business</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Specialized in businesses with 5-500 employees</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Built for business compliance and regulatory requirements</span>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="text-left animate-fade-in-up stagger-800">
-            <h3 className="text-2xl font-semibold mb-6 text-tiffany-500">What You Get</h3>
-            <ul className="space-y-4 text-neutral-300">
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Custom voice AI agents that sound human</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Automated workflows that save 4+ hours daily</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>Data enrichment systems for better decisions</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-tiffany-500 mr-3">•</span>
-                <span>24/7 customer service without hiring staff</span>
-              </li>
-            </ul>
+        <div className="max-w-7xl mx-auto mb-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+            <div className="group animate-fade-in-up stagger-600 p-8 rounded-2xl bg-gradient-to-br from-neutral-900/30 via-neutral-900/20 to-neutral-800/30 border border-neutral-800/50 hover:border-tiffany-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-tiffany-500/10 hover:scale-105 transform backdrop-blur-sm">
+              <h3 className="text-xl font-light mb-6 text-tiffany-400 group-hover:text-tiffany-300 transition-colors duration-300">Custom Development</h3>
+              <ul className="space-y-4 text-neutral-400 text-sm font-light">
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Voice AI agents tailored to your business</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Workflow automation systems</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Business intelligence dashboards</span>
+                </li>
+              </ul>
+              <div className="mt-8 w-12 h-px bg-gradient-to-r from-transparent via-tiffany-500/50 to-transparent mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            
+            <div className="group animate-fade-in-up stagger-700 p-8 rounded-2xl bg-gradient-to-br from-neutral-900/30 via-neutral-900/20 to-neutral-800/30 border border-neutral-800/50 hover:border-tiffany-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-tiffany-500/10 hover:scale-105 transform backdrop-blur-sm">
+              <h3 className="text-xl font-light mb-6 text-tiffany-400 group-hover:text-tiffany-300 transition-colors duration-300">Full Integration</h3>
+              <ul className="space-y-4 text-neutral-400 text-sm font-light">
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Seamless connection to existing tools</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>HIPAA compliant infrastructure</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>100% remote deployment</span>
+                </li>
+              </ul>
+              <div className="mt-8 w-12 h-px bg-gradient-to-r from-transparent via-tiffany-500/50 to-transparent mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+
+            <div className="group animate-fade-in-up stagger-800 p-8 rounded-2xl bg-gradient-to-br from-neutral-900/30 via-neutral-900/20 to-neutral-800/30 border border-neutral-800/50 hover:border-tiffany-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-tiffany-500/10 hover:scale-105 transform backdrop-blur-sm">
+              <h3 className="text-xl font-light mb-6 text-tiffany-400 group-hover:text-tiffany-300 transition-colors duration-300">Ongoing Support</h3>
+              <ul className="space-y-4 text-neutral-400 text-sm font-light">
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Maintenance and system updates</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Team training and documentation</span>
+                </li>
+                <li className="flex items-start justify-center group-hover:text-neutral-300 transition-colors duration-300">
+                  <span className="text-tiffany-500 mr-3 flex-shrink-0 mt-0.5">✓</span>
+                  <span>Performance optimization</span>
+                </li>
+              </ul>
+              <div className="mt-8 w-12 h-px bg-gradient-to-r from-transparent via-tiffany-500/50 to-transparent mx-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 animate-fade-in-up stagger-1000">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 animate-fade-in-up stagger-1000">
           <Button
             asChild
-            className="bg-tiffany-500 text-black-900 font-semibold px-12 py-6 rounded-none hover:bg-tiffany-400 transition-all duration-300 tracking-wide uppercase text-base"
-            onClick={() => trackCTAClick('Book Free Strategy Call', 500, 'final_cta_section')}
+            className="bg-gradient-to-r from-tiffany-500 to-tiffany-600 text-black-900 font-semibold px-12 py-6 rounded-none hover:from-tiffany-400 hover:to-tiffany-500 transition-all duration-500 tracking-wide uppercase text-sm sm:text-base w-full sm:w-auto shadow-2xl hover:shadow-tiffany-500/25 hover:scale-105 transform"
           >
             <Link
               href="https://calendly.com/innovationsynergyai/30-minute-discovery-call"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackCTAClick('Book Free Strategy Call', 500, 'final_cta_section')}
             >
-              BOOK YOUR FREE STRATEGY CALL
+              SCHEDULE FREE CONSULTATION
             </Link>
           </Button>
           <Button
             asChild
-            className="border border-white-50 text-white-50 font-semibold px-12 py-6 rounded-none hover:bg-white-50 hover:text-black-900 transition-all duration-300 tracking-wide uppercase text-base"
-            onClick={() => trackButtonClick('Email Us Directly', 'final_cta_section', { contact_method: 'email' })}
+            className="border border-neutral-600 text-neutral-300 font-semibold px-12 py-6 rounded-none hover:border-tiffany-500 hover:text-tiffany-500 hover:bg-neutral-900/50 transition-all duration-500 tracking-wide uppercase text-sm sm:text-base w-full sm:w-auto backdrop-blur-sm hover:scale-105 transform"
           >
-            <Link href="mailto:info@innovationsynergyai.com">
-              EMAIL US DIRECTLY
+            <Link 
+              href="#capabilities"
+              onClick={() => trackButtonClick('Learn More About Services', 'final_cta_section')}
+            >
+              VIEW CAPABILITIES
             </Link>
           </Button>
         </div>
-
-        <p className="text-neutral-400 text-sm mt-12 max-w-2xl mx-auto animate-fade-in-up stagger-1200">
-          Innovation Synergy AI Inc. specializes in business automation consulting for small businesses. 
-          All consultations are confidential and come with our 30-day satisfaction guarantee.
-        </p>
+        
+        <div className="mt-12 animate-fade-in-up stagger-1200">
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-neutral-700/20 to-transparent h-px top-1/2"></div>
+            <p className="text-neutral-500 text-xs font-light tracking-wide bg-black-900 px-4 relative inline-block">
+              No obligation • 30-minute strategy session • See if we're a fit for your business
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )

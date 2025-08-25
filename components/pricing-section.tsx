@@ -4,27 +4,27 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export default function PricingSection() {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-black">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-white mb-4">
             AI Consulting Services
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-300">
             Professional AI solutions tailored to your business needs
           </p>
         </div>
 
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
-          <Card className="p-6">
+          <Card className="p-6 bg-gray-900 border border-gray-800">
             <CardHeader>
-              <CardTitle>Voice AI Agents</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Voice AI Agents</CardTitle>
+              <CardDescription className="text-gray-400">
                 Automated phone systems that handle customer inquiries and appointment scheduling
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-300">
                 <li>• 24/7 phone answering</li>
                 <li>• Appointment scheduling</li>
                 <li>• Customer inquiry handling</li>
@@ -33,15 +33,15 @@ export default function PricingSection() {
             </CardContent>
           </Card>
 
-          <Card className="p-6">
+          <Card className="p-6 bg-gray-900 border border-gray-800">
             <CardHeader>
-              <CardTitle>Workflow Automation</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Workflow Automation</CardTitle>
+              <CardDescription className="text-gray-400">
                 Streamline business processes and integrate existing tools
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-300">
                 <li>• Process optimization</li>
                 <li>• System integration</li>
                 <li>• Data management</li>
@@ -50,15 +50,15 @@ export default function PricingSection() {
             </CardContent>
           </Card>
 
-          <Card className="p-6">
+          <Card className="p-6 bg-gray-900 border border-gray-800">
             <CardHeader>
-              <CardTitle>Custom Solutions</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-white">Custom Solutions</CardTitle>
+              <CardDescription className="text-gray-400">
                 Tailored AI implementations for specific business requirements
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-300">
                 <li>• Custom development</li>
                 <li>• Industry-specific solutions</li>
                 <li>• Ongoing support</li>

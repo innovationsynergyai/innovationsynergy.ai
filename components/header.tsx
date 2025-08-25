@@ -13,9 +13,8 @@ export default function Header() {
   const mobileMenuRef = useRef<HTMLDivElement>(null)
 
   const navigationItems = [
-    { href: '#business-impact', label: 'Impact', ariaLabel: 'View business impact section' },
-    { href: '/case-studies', label: 'Case Studies', ariaLabel: 'View our case studies' },
-    { href: '#investment-packages', label: 'Packages', ariaLabel: 'View investment packages' }
+    { href: '#capabilities', label: 'Capabilities', ariaLabel: 'View our capabilities' },
+    { href: 'https://calendly.com/innovationsynergyai/30-minute-discovery-call', label: 'Consultation', ariaLabel: 'Schedule free consultation', external: true }
   ]
 
   const locationLinks = [
@@ -90,6 +89,8 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
+                target={item.external ? '_blank' : undefined}
+                rel={item.external ? 'noopener noreferrer' : undefined}
                 className="text-neutral-300 hover:text-tiffany-500 focus:text-tiffany-500 transition-colors duration-300 text-sm font-medium tracking-wide uppercase focus:outline-none focus:ring-2 focus:ring-tiffany-500 rounded px-2 py-1"
                 aria-label={item.ariaLabel}
                 onFocus={() => setFocusedIndex(index)}

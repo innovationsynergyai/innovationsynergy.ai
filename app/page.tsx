@@ -1,45 +1,46 @@
 import type { Metadata } from "next"
 import HeroSection from "@/components/hero-section"
 import TestimonialsSection from "@/components/TestimonialsSection"
-import PricingSection from "@/components/pricing-section"
 import FinalCTASection from "@/components/final-cta-section"
 import { LocalBusinessStructuredData, FAQStructuredData } from "@/components/StructuredData"
 import { generatePageMetadata } from "@/lib/metadata"
 
 export const metadata: Metadata = generatePageMetadata({
-  description: "Professional AI consulting services for small businesses. Custom voice AI agents, workflow automation, and business process optimization.",
+  description: "Small business AI specialists who build, integrate, and maintain custom AI solutions. Voice agents, workflow automation, and business intelligence systems.",
   pathname: "",
   keywords: [
-    "AI consulting",
+    "small business AI consulting",
+    "custom AI development",
     "voice AI agents",
     "workflow automation",
-    "business process automation",
-    "AI integration",
-    "custom AI solutions"
+    "AI integration services",
+    "business AI solutions",
+    "HIPAA compliant AI",
+    "remote AI deployment"
   ]
 })
 
 // FAQ data for structured data
 const homepageFAQs = [
   {
-    question: "What AI consulting services do you provide?",
-    answer: "We provide custom voice AI agents, workflow automation, and business process optimization tailored to your specific business needs."
+    question: "What makes you different from other AI consulting companies?",
+    answer: "We don't just consult - we build, integrate, and maintain custom AI solutions. From development to deployment to training, we handle everything for small businesses."
   },
   {
-    question: "How do AI agents work for small businesses?",
-    answer: "AI agents can handle phone calls, schedule appointments, answer common questions, and automate repetitive tasks, allowing you to focus on growing your business."
+    question: "Do you build custom AI solutions or just implement existing ones?",
+    answer: "We develop custom AI solutions from scratch, tailored to your specific business processes. This includes voice AI agents, workflow automation, and business intelligence systems."
   },
   {
-    question: "Do you serve businesses nationwide?",
-    answer: "Yes, we provide AI consulting services nationwide with specialized teams in Boston, New York City, and Miami. All implementations include remote support."
+    question: "How does remote AI deployment work for small businesses?",
+    answer: "We handle 100% remote implementation with zero disruption to your operations. Our HIPAA compliant infrastructure integrates seamlessly with your existing tools."
   },
   {
-    question: "What industries do you work with?",
-    answer: "We work with various industries including healthcare, legal, real estate, restaurants, and professional services, customizing AI solutions for each sector."
+    question: "What ongoing support do you provide after implementation?",
+    answer: "We provide maintenance, system updates, team training, documentation, and performance optimization. Think of us as your dedicated AI department."
   },
   {
-    question: "How do we get started with AI consulting?",
-    answer: "Contact us for a consultation where we'll discuss your business needs and explore how AI solutions can be tailored to your specific requirements."
+    question: "How do we get started with custom AI development?",
+    answer: "Schedule a free consultation where we'll assess your business needs and design a custom AI solution. We'll walk you through our build, integrate, and maintain process."
   }
 ]
 
@@ -50,8 +51,6 @@ export default function HomePage() {
       <FAQStructuredData faqs={homepageFAQs} />
       
       <HeroSection />
-      <TestimonialsSection />
-      <PricingSection />
       <FinalCTASection />
     </>
   )
