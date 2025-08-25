@@ -13,19 +13,19 @@ export default function DataVisualizationSection() {
           className="text-tiffany-500 text-xs font-semibold tracking-[0.3em] uppercase text-center mb-6 animate-fade-in-up stagger-0"
           role="text"
         >
-          SMALL BUSINESS OPERATIONAL DATA
+          AI CONSULTING SERVICES
         </p>
         <h2 
           className="font-display text-5xl md:text-7xl font-light text-center mb-8 animate-fade-in-up stagger-200"
           id="analysis-title"
         >
-          Current State Analysis
+          Our Approach
         </h2>
         <p 
           className="text-xl md:text-2xl text-neutral-600 text-center mb-24 font-light animate-fade-in-up stagger-400"
           aria-describedby="analysis-title"
         >
-          Research-backed data on small business operational inefficiencies and automation opportunities
+          Professional AI consulting tailored to your business needs and industry requirements
         </p>
 
         <div 

@@ -16,17 +16,17 @@ export default function FinalCTASection() {
           Automate Your <span className="text-tiffany-500">Operations</span>
         </h2>
         <p className="text-xl md:text-2xl text-neutral-300 mb-16 font-light animate-fade-in-up stagger-400">
-          Join 200+ small businesses saving 20+ hours weekly through voice AI agents 
-          and automated workflows. Measurable ROI within 30 days.
+          Professional AI consulting services to streamline your business operations 
+          with voice agents and workflow automation.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="text-left animate-fade-in-up stagger-600">
-            <h3 className="text-2xl font-semibold mb-6 text-tiffany-500">Why Innovation Synergy AI?</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-tiffany-500">Why Choose Us?</h3>
             <ul className="space-y-4 text-neutral-300">
               <li className="flex items-start">
                 <span className="text-tiffany-500 mr-3">•</span>
-                <span>The only AI consultancy specializing in small business automation</span>
+                <span>Professional AI consulting for small businesses</span>
               </li>
               <li className="flex items-start">
                 <span className="text-tiffany-500 mr-3">•</span>

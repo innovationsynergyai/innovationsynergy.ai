@@ -1,55 +1,6 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { cn } from "@/lib/utils"
-
-const testimonials = [
-  {
-    quote: "Innovation Synergy AI NYC transformed our trading floor operations. Order processing dropped from 3 minutes to 15 seconds, trade execution accuracy reached 99.8%, and we're saving $280K monthly on operational costs. Built for Wall Street pace.",
-    author: "James Rodriguez",
-    title: "Head of Trading Operations",
-    company: "Goldman Sachs Trading Floor",
-    industry: "Investment Banking",
-    metrics: "3min → 15sec processing",
-    roi: "$280K monthly savings"
-  },
-  {
-    quote: "The AI agents handle 92% of our property inquiries 24/7. Listing presentations became automated, we've gained 68 hours per week, and property sales velocity increased by 45% across Manhattan, Brooklyn, and Queens.",
-    author: "Maria Gonzalez",
-    title: "Senior Partner",
-    company: "Manhattan Premier Realty",
-    industry: "Real Estate",
-    metrics: "92% inquiry automation",
-    roi: "45% sales velocity increase"
-  },
-  {
-    quote: "Our FinTech startup operations scaled effortlessly. Customer onboarding time dropped by 67%, compliance processing accuracy reached 99.7%, and user acquisition costs decreased by 38%. The ROI for NYC startups is incredible.",
-    author: "David Kim",
-    title: "Co-Founder & CTO",
-    company: "FinanceFlow NYC",
-    industry: "Financial Technology",
-    metrics: "67% faster onboarding",
-    roi: "$520K efficiency gain"
-  },
-  {
-    quote: "The NYC real estate market demands 24/7 responsiveness. Our client satisfaction reached 97%, property showing scheduling doubled to 89% conversion, and our team productivity increased by 125% across all 5 boroughs.",
-    author: "Sarah Thompson",
-    title: "Managing Director",
-    company: "NYC Properties Group",
-    industry: "Commercial Real Estate",
-    metrics: "89% showing conversion",
-    roi: "125% productivity increase"
-  },
-  {
-    quote: "As a Wall Street financial consultant, the AI integration helped us serve high-net-worth clients 4x more efficiently. Response times improved to sub-minute, portfolio analysis became instant, and our AUM grew by 73%.",
-    author: "Robert Chen",
-    title: "Senior Financial Advisor",
-    company: "Wall Street Wealth Management",
-    industry: "Wealth Management",
-    metrics: "4x service efficiency",
-    roi: "73% AUM growth"
-  }
-]
 
 export default function TestimonialsSection() {
   return (
@@ -57,84 +8,62 @@ export default function TestimonialsSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Trusted by NYC Industry Leaders
+            New York City AI Services
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            See how Goldman Sachs, Manhattan real estate firms, Wall Street wealth managers, and NYC startups are transforming their operations with our NYC-focused AI solutions built for 24/7 market demands
+            Professional AI consulting and development services for businesses across the five boroughs
           </p>
         </div>
 
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {testimonials.map((testimonial, index) => (
-            <Card 
-              key={index} 
-              className={cn(
-                "bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1",
-                index === 2 && "lg:col-span-1 lg:row-span-2" // Make one testimonial larger for visual interest
-              )}
-            >
-              <CardContent className="p-8">
-                <div className="flex items-start space-x-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      className="h-5 w-5 text-yellow-400 fill-current"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                
-                <blockquote className="text-gray-900 font-medium leading-relaxed mb-6">
-                  "{testimonial.quote}"
-                </blockquote>
-                
-                <div className="flex justify-between items-start mb-4">
-                  <div className="bg-blue-50 px-3 py-1 rounded-full">
-                    <span className="text-sm font-semibold text-blue-700">
-                      {testimonial.metrics}
-                    </span>
-                  </div>
-                  <div className="bg-green-50 px-3 py-1 rounded-full">
-                    <span className="text-sm font-semibold text-green-700">
-                      {testimonial.roi}
-                    </span>
-                  </div>
-                </div>
+        <div className="mx-auto mt-16 grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <CardContent className="p-8 text-center">
+              <div className="mx-auto h-16 w-16 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+                <svg className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Real Estate & Property</h3>
+              <p className="text-gray-600">Property management systems and tenant communication automation for NYC real estate firms.</p>
+            </CardContent>
+          </Card>
 
-                <div className="border-t pt-4">
-                  <div className="flex items-center">
-                    <div className="h-12 w-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">
-                        {testimonial.author.charAt(0)}
-                      </span>
-                    </div>
-                    <div className="ml-4">
-                      <p className="font-semibold text-gray-900">{testimonial.author}</p>
-                      <p className="text-sm text-gray-600">{testimonial.title}</p>
-                      <p className="text-sm font-medium text-blue-600">{testimonial.company}</p>
-                      <p className="text-xs text-gray-500 uppercase tracking-wide">{testimonial.industry}</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+          <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <CardContent className="p-8 text-center">
+              <div className="mx-auto h-16 w-16 rounded-full bg-green-100 flex items-center justify-center mb-4">
+                <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Financial Services</h3>
+              <p className="text-gray-600">Wall Street and Financial District automation for trading firms and investment companies.</p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <CardContent className="p-8 text-center">
+              <div className="mx-auto h-16 w-16 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                <svg className="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Hospitality & Retail</h3>
+              <p className="text-gray-600">Restaurant chains and retail automation solutions for New York's hospitality industry.</p>
+            </CardContent>
+          </Card>
         </div>
 
         <div className="mx-auto mt-12 text-center">
-          <div className="inline-flex items-center space-x-2 bg-green-50 px-4 py-2 rounded-full mb-6">
-            <svg className="h-5 w-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <span className="text-sm font-semibold text-green-700">Average NYC ROI: 487% within 4.2 months</span>
-          </div>
+          <p className="text-gray-600 mb-4">
+            Serving businesses throughout New York City with reliable AI solutions
+          </p>
           <a
-            href="/case-studies"
-            className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+            href="https://calendly.com/innovationsynergyai/30-minute-discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors duration-300 font-medium"
           >
-            View detailed case studies with full metrics
+            Schedule NYC Consultation
             <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
