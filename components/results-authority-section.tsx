@@ -9,10 +9,17 @@ export default function ResultsAuthoritySection() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-black-900 via-neutral-950 to-black-900 text-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         
-        {/* ConvAI Widget */}
-        <div className="text-center mb-16">
-          <div className="max-w-2xl mx-auto">
-            <elevenlabs-convai agent-id="agent_6801k1pr3gsxejnbzxmyc38f1jqf"></elevenlabs-convai>
+        {/* Background Video */}
+        <div className="relative mb-16 overflow-hidden rounded-2xl bg-black-900 border border-neutral-800/50">
+          <div className="aspect-video relative">
+            <iframe
+              src="https://www.youtube.com/embed/N563Pel2v9g?autoplay=1&mute=1&loop=1&playlist=N563Pel2v9g&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&start=0&end=0"
+              className="absolute top-1/2 left-1/2 w-[177.77vh] h-[56.25vw] min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2"
+              allow="autoplay; encrypted-media"
+              allowFullScreen={false}
+              style={{ border: "none" }}
+              title="Background Video"
+            />
           </div>
         </div>
         
