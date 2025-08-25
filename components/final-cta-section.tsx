@@ -116,11 +116,7 @@ export default function FinalCTASection() {
         {/* Trust & Compliance Indicators */}
         <div className="mt-16 animate-fade-in-up stagger-1100">
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-              <div className="text-center">
-                <div className="text-tiffany-500 text-sm font-medium mb-1">SOC 2</div>
-                <div className="text-neutral-500 text-xs">Certified</div>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="text-center">
                 <div className="text-tiffany-500 text-sm font-medium mb-1">HIPAA</div>
                 <div className="text-neutral-500 text-xs">Compliant</div>

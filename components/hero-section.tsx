@@ -84,14 +84,10 @@ export default function HeroSection() {
         {/* Elite Trust Indicators */}
         <div className="mt-12 animate-fade-in-up stagger-1200">
           <div className="bg-gradient-to-r from-neutral-900/50 via-neutral-800/30 to-neutral-900/50 border border-neutral-800/50 rounded-2xl p-6 max-w-4xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center text-xs">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-xs">
               <div>
                 <div className="text-tiffany-400 font-semibold mb-1">HIPAA</div>
                 <div className="text-neutral-500">Compliant</div>
-              </div>
-              <div>
-                <div className="text-tiffany-400 font-semibold mb-1">SOC 2</div>
-                <div className="text-neutral-500">Certified</div>
               </div>
               <div>
                 <div className="text-tiffany-400 font-semibold mb-1">US-Based</div>
@@ -100,10 +96,6 @@ export default function HeroSection() {
               <div>
                 <div className="text-tiffany-400 font-semibold mb-1">24/7</div>
                 <div className="text-neutral-500">Support</div>
-              </div>
-              <div>
-                <div className="text-tiffany-400 font-semibold mb-1">Founded</div>
-                <div className="text-neutral-500">2019</div>
               </div>
             </div>
           </div>
