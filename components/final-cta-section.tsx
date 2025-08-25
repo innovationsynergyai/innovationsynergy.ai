@@ -16,9 +16,7 @@ export default function FinalCTASection() {
           </p>
         </div>
         <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extralight mb-12 animate-fade-in-up stagger-200 leading-[0.9] tracking-tight">
-          <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">GROWTH INFRASTRUCTURE</span><br className="block sm:hidden" />
-          <span className="hidden sm:inline text-neutral-600"> / </span><span className="text-neutral-200">HIPAA COMPLIANT PIPELINES</span><br className="block sm:hidden" />
-          <span className="hidden sm:inline text-neutral-600"> / </span><span className="text-neutral-300">LOCAL AND CLOUD SOLUTIONS</span>
+          <span className="bg-gradient-to-r from-tiffany-400 via-tiffany-500 to-tiffany-600 bg-clip-text text-transparent font-light">SECURE AI INFRASTRUCTURE</span>
         </h2>
         <p className="text-base md:text-lg lg:text-xl text-neutral-400 mb-20 font-light animate-fade-in-up stagger-400 max-w-4xl mx-auto leading-relaxed">
           Ready to join the elite group of businesses saving $50K-$200K annually with custom AI? 
