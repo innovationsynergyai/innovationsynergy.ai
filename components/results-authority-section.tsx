@@ -13,9 +13,9 @@ export default function ResultsAuthoritySection() {
         <div className="relative mb-16 overflow-hidden rounded-2xl bg-black-900 border border-neutral-800/50">
           <div className="aspect-video relative">
             <iframe
-              src="https://www.youtube.com/embed/N563Pel2v9g?autoplay=1&mute=1&loop=1&playlist=N563Pel2v9g&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&start=0&end=0"
+              src="https://player.vimeo.com/video/N563Pel2v9g?autoplay=1&muted=1&loop=1&background=1&controls=0&title=0&byline=0&portrait=0&playsinline=1"
               className="absolute top-1/2 left-1/2 w-[177.77vh] h-[56.25vw] min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2"
-              allow="autoplay; encrypted-media"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen={false}
               style={{ border: "none" }}
               title="Background Video"
