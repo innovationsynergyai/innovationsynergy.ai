@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,8 +9,14 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-8 h-8 bg-tiffany-500 rounded-full flex items-center justify-center">
-                <span className="text-black-900 font-bold text-sm">IS</span>
+              <div className="w-8 h-8 flex items-center justify-center">
+                <Image
+                  src="/logo-black-square.png"
+                  alt="Innovation Synergy AI logo"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div>
                 <div className="font-display text-xl font-light">Innovation Synergy AI</div>
