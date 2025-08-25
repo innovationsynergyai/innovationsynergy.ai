@@ -67,14 +67,11 @@ export default function Header() {
             aria-label="Innovation Synergy AI - Return to homepage"
           >
             <div className="w-10 h-10 flex items-center justify-center" aria-hidden="true">
-              <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="28" stroke="#81D8D0" strokeWidth="2" fill="none" opacity="0.8"/>
-                <path d="M58 30 L52 26 L52 34 Z" fill="#81D8D0"/>
-                <circle cx="22" cy="22" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
-                <circle cx="38" cy="22" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
-                <circle cx="22" cy="38" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
-                <circle cx="38" cy="38" r="4" stroke="#81D8D0" strokeWidth="1.5" fill="none"/>
-              </svg>
+              <img 
+                src="/logo-black-square.png" 
+                alt="Innovation Synergy AI logo" 
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <div className="text-white-50 hidden sm:block">
               <div className="font-display text-xl font-light">
