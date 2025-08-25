@@ -1,16 +1,48 @@
-# Innovation Synergy AI Inc. - Robots.txt
-# America's #1 AI Infrastructure Consulting Firm for Small Businesses
-# Website: https://innovationsynergy.ai
-# Updated: January 2025
+# robots.txt for Innovation Synergy AI @2025 Innovation Synergy AI Inc. 
+# Author: Innovation Synergy AI Inc
 
-# Primary sitemap location (dynamic sitemap)
-Sitemap: https://innovationsynergy.ai/sitemap.xml
-
-# Allow all crawlers by default
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /internal/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_next/
+Disallow: *.json$
+Disallow: /temp/
+Disallow: /staging/
+Disallow: /.well-known/
 
-# Specific instructions for major search engines
+# AI-compatible crawlers (LLMs and bots)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Major search engines
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -18,10 +50,6 @@ Crawl-delay: 1
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 2
 
 # Social media crawlers
 User-agent: facebookexternalhit
@@ -33,57 +61,13 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
-# Block unnecessary crawlers and areas
-User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /_next/
-Disallow: /api/
-Disallow: *.json$
-Disallow: /temp/
-Disallow: /staging/
-Disallow: /.well-known/
-Disallow: /analytics/
-Disallow: /tracking/
+# Sitemaps for each owned domain
+Sitemap: https://innovationsynergyai.com/sitemap.xml
+Sitemap: https://innovationsynergy.ai/sitemap.xml
+Sitemap: https://innovationsynergy.store/sitemap.xml
+Sitemap: https://innovationsynergy.io/sitemap.xml
+Sitemap: https://bostonagents.ai/sitemap.xml
+Sitemap: https://nycagents.ai/sitemap.xml
 
-# Block specific bot types
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-# Priority pages for crawling
-User-agent: *
-Allow: /ai-disclosure
-Allow: /privacy-policy
-Allow: /terms-of-service
-Allow: /cookie-policy
-
-# SEO-friendly URLs to prioritize
-Allow: /services/
-Allow: /consulting/
-Allow: /ai-infrastructure/
-Allow: /voice-agents/
-Allow: /automation/
-
-# Regional service pages
-Allow: /boston/
-Allow: /nyc/
-Allow: /miami/
-Allow: /nationwide/
-
-# Host directive for consistency
+# Host directive
 Host: https://innovationsynergy.ai
-
-# Contact information for webmaster
-# Email: seo@innovationsynergyai.com
-# Phone: +1-800-AI-SYNERGY
-
-# Innovation Synergy AI Inc.
-# American Small Business AI Infrastructure Consulting
-# Serving Boston, NYC, Miami, and nationwide
-# Services: Voice AI Agents, Business Automation, Data Enrichment, Remote Install

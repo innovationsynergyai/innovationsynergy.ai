@@ -4,10 +4,8 @@ import HeroVideo from "@/components/HeroVideo"
 import GuaranteeBanner from "@/components/GuaranteeBanner"
 import ChatWidget from "@/components/ChatWidget"
 import SchedulingCalendar from "@/components/SchedulingCalendar"
-import ClientLogos from "@/components/ClientLogos"
 import TestimonialsSection from "@/components/TestimonialsSection"
 import DataVisualizationSection from "@/components/data-visualization-section"
-import TrustBadges from "@/components/TrustBadges"
 import PricingSection from "@/components/pricing-section"
 import UrgencySection from "@/components/urgency-section"
 import FinalCTASection from "@/components/final-cta-section"
@@ -67,8 +65,6 @@ export default function HomePage() {
       {/* CONVERSION FUNNEL STEP 1: Capture Attention with High-Impact Value Proposition */}
       <HeroSection />
       
-      {/* CONVERSION FUNNEL STEP 2: Build Credibility with Social Proof */}
-      <ClientLogos />
       
       {/* CONVERSION FUNNEL STEP 3: Demonstrate Results with Video Testimonial */}
       <HeroVideo />
@@ -82,7 +78,6 @@ export default function HomePage() {
       {/* CONVERSION FUNNEL STEP 6: Show Additional Proof and Data */}
       <TestimonialsSection />
       <DataVisualizationSection />
-      <TrustBadges />
       
       {/* CONVERSION FUNNEL STEP 7: Present Investment Options */}
       <PricingSection />

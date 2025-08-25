@@ -6,15 +6,14 @@ export default function UrgencySection() {
     <section className="py-24 bg-tiffany-500 text-black-900">
       <div className="container max-w-6xl mx-auto px-6 lg:px-8 text-center">
         <h2 className="font-display text-4xl md:text-6xl font-light mb-8 animate-fade-in-up stagger-0">
-          Q1 2025 Implementation Schedule
+          Professional Implementation Services
         </h2>
         <p className="text-xl md:text-2xl font-semibold mb-6 animate-fade-in-up stagger-200">
           Professional Implementation Schedule Available
         </p>
         <p className="text-lg mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up stagger-400">
-          Due to our comprehensive deployment process and commitment to results, Innovation Synergy AI 
-          maintains selective client partnerships each quarter. Secure your implementation slot to 
-          begin seeing measurable ROI within 30 days.
+          Our comprehensive deployment process ensures exceptional results for every client. 
+          Begin your transformation today and start seeing measurable ROI within 30 days.
         </p>
         
         <div className="bg-black-900 text-white-50 rounded-lg p-8 mb-12 max-w-2xl mx-auto animate-fade-in-up stagger-600">
