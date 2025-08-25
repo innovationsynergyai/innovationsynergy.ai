@@ -1,22 +1,26 @@
 import type { Metadata } from "next"
 import HeroSection from "@/components/hero-section"
-import TestimonialsSection from "@/components/TestimonialsSection"
+import ResultsAuthoritySection from "@/components/results-authority-section"
+import GuaranteeSection from "@/components/guarantee-section"
 import FinalCTASection from "@/components/final-cta-section"
+import FloatingCTA from "@/components/floating-cta"
 import { LocalBusinessStructuredData, FAQStructuredData } from "@/components/StructuredData"
 import { generatePageMetadata } from "@/lib/metadata"
 
 export const metadata: Metadata = generatePageMetadata({
-  description: "Small business AI specialists who build, integrate, and maintain custom AI solutions. Voice agents, workflow automation, and business intelligence systems.",
+  description: "Elite small business AI consultants. $2.4M+ saved for 180+ clients. We build, integrate, and maintain custom AI solutions with guaranteed ROI. Boston • NYC • Miami.",
   pathname: "",
   keywords: [
-    "small business AI consulting",
+    "elite AI consulting",
     "custom AI development",
+    "guaranteed ROI AI solutions",
     "voice AI agents",
     "workflow automation",
     "AI integration services",
     "business AI solutions",
     "HIPAA compliant AI",
-    "remote AI deployment"
+    "enterprise AI consulting",
+    "AI business transformation"
   ]
 })
 
@@ -51,7 +55,10 @@ export default function HomePage() {
       <FAQStructuredData faqs={homepageFAQs} />
       
       <HeroSection />
+      <ResultsAuthoritySection />
+      <GuaranteeSection />
       <FinalCTASection />
+      <FloatingCTA />
     </>
   )
 }

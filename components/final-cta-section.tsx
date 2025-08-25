@@ -12,7 +12,7 @@ export default function FinalCTASection() {
         <div className="relative mb-8">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-tiffany-500/20 to-transparent h-px top-1/2"></div>
           <p className="text-tiffany-400 text-xs font-semibold tracking-[0.4em] uppercase bg-black-900 px-6 relative inline-block animate-fade-in-up stagger-0">
-            READY FOR CUSTOM AI SOLUTIONS?
+            JOIN 180+ SUCCESSFUL BUSINESSES
           </p>
         </div>
         <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extralight mb-12 animate-fade-in-up stagger-200 leading-[0.9] tracking-tight">
@@ -21,8 +21,8 @@ export default function FinalCTASection() {
           <span className="hidden sm:inline text-neutral-600"> / </span><span className="text-neutral-300">LOCAL AND CLOUD SOLUTIONS</span>
         </h2>
         <p className="text-base md:text-lg lg:text-xl text-neutral-400 mb-20 font-light animate-fade-in-up stagger-400 max-w-4xl mx-auto leading-relaxed">
-          We don't just consult – we build, integrate, and maintain custom AI solutions for small businesses. 
-          From voice agents to workflow automation, we handle everything.
+          Ready to join the elite group of businesses saving $50K-$200K annually with custom AI? 
+          <span className="text-tiffany-400">Our proven methodology delivers results in 21 days.</span>
         </p>
 
         <div className="max-w-7xl mx-auto mb-20">
@@ -97,7 +97,7 @@ export default function FinalCTASection() {
               rel="noopener noreferrer"
               onClick={() => trackCTAClick('Book Free Strategy Call', 500, 'final_cta_section')}
             >
-              SCHEDULE FREE CONSULTATION
+              CLAIM YOUR STRATEGY SESSION
             </Link>
           </Button>
           <Button
@@ -108,7 +108,7 @@ export default function FinalCTASection() {
               href="#capabilities"
               onClick={() => trackButtonClick('Learn More About Services', 'final_cta_section')}
             >
-              VIEW CAPABILITIES
+              SEE CLIENT RESULTS
             </Link>
           </Button>
         </div>
